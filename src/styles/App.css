@@ -1,0 +1,46 @@
+.MyPage {
+    padding: 0;
+}
+.navbar {
+    padding: 0;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+/*------Navbar------*/
+.navbar-collapse {
+    flex-grow: unset;
+}
+/*------Navbar Button------*/
+.navbar-toggler {
+    float: right;
+    padding: 9px 10px;
+    margin: 0;
+    background-color: transparent;
+    background-image: none;
+    border: 2px;
+}
+/*------FONTS------*/
+.fa-fingerprint {
+    font-size: 25px;
+}
+/*------Dropdown------*/
+/*------Language------*/
+.dropdown-item {
+    padding: 0;
+}
+.dropdown-menu {
+    left: auto;
+}
+/*------Navi------*/
+.active {
+    color: black;
+    padding: 8px;
+    display: block;
+}
+.nav-link {
+    color: black;
+    display: block;
+}
