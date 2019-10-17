@@ -1,3 +1,4 @@
+/*----------N A V B A R----------*/
 .MyPage {
     padding: 0;
 }
@@ -13,6 +14,10 @@
 .navbar-collapse {
     flex-grow: unset;
 }
+@keyframes navbar-brand{
+    0% { opacity:0;}
+    100% { opacity: 0.9}
+}
 /*------Navbar Button------*/
 .navbar-toggler {
     float: right;
@@ -25,22 +30,58 @@
 /*------FONTS------*/
 .fa-fingerprint {
     font-size: 25px;
+    cursor: pointer;
 }
 /*------Dropdown------*/
 /*------Language------*/
-.dropdown-item {
-    padding: 0;
+.pl:hover{
+    background-image: linear-gradient(white 50%, red 50%);
+    font-size: larger;
+}
+.pl:active{
+    font-weight: bold;
+    color: black;
+}
+.de:hover{
+    background-image: linear-gradient(black 0% 33%, red 33% 66%, yellow 66%); 
+    font-size: larger;
+}
+.de:active{
+    font-weight: bold;
+    color: black;
 }
 .dropdown-menu {
     left: auto;
+    border: none;
 }
 /*------Navi------*/
+a:hover {
+    color:goldenrod;
+    text-decoration: none;
+}
 .active {
     color: black;
     padding: 8px;
     display: block;
+    
 }
 .nav-link {
     color: black;
     display: block;
 }
+/*----------M A I N T H E M E----------*/
+.mtns-container {
+    width: 100%;
+    height: 600px;
+    background: url(Mountains.jpg) 50% 1%;
+    background-size: cover;
+}
+h1 {
+    padding-top: 60px;
+    text-align: center;
+    margin: 0;
+    color: rgb(93, 150, 87);
+    font-size: 80px;
+    font-weight: bold;
+}
+
