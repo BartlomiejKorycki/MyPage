@@ -84,4 +84,15 @@ h1 {
     font-size: 80px;
     font-weight: bold;
 }
+/*----------F O O T E R----------*/
+.fa-linkedin {
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
+.fa-github-square {
+    font-size: 25px;
+    cursor: pointer;
+    color: black;
+}
 

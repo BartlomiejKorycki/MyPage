@@ -9,4 +9,5 @@ class MainTheme extends React.Component {
         );
     }
 }
+
 export default MainTheme;
