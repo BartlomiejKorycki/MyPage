@@ -6,7 +6,7 @@ class Navbar extends React.Component {
         return(
             <nav className="navbar navbar-expand-md">
                 <div className="container container-fluid">
-                    <a className="navbar-brand" href="google.com">
+                    <a className="navbar-brand" href="/">
                         <img className="navbar-img" src={bedoka} alt="mylogo" width="100px"></img>
                     </a>
                     <button className="navbar-toggler" data-toggle="collapse" data-target="#my-navbar-button">
@@ -14,9 +14,8 @@ class Navbar extends React.Component {
                     </button>
                     <div className="collapse navbar-collapse" id="my-navbar-button">
                         <ul className="nav navbar-nav text-center">
-                            <li><a className="active am" href="google.com">About me</a></li>
-                            <li><a className="active pf" href="google.com">Portfolio</a></li>
-                            <li><a className="active ct" href="google.com">Contact</a></li>
+                            <li><a className="active am" href='about'>About me</a></li>
+                            <li><a className="active pf" href="portfolio">Portfolio</a></li>         
                             <li className="nav-item-dropdown">
                                 <a className="nav-link dropdown-toggle lrg" href="google.com" data-toggle="dropdown">
                                     Language
@@ -27,7 +26,6 @@ class Navbar extends React.Component {
                                 </div>
                             </li>
                         </ul>
-
                     </div>
                 </div>
             </nav>
