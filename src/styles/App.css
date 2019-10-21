@@ -1,9 +1,15 @@
+body {
+    /*font-family: 'Fredericka the Great', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
 /*----------N A V B A R----------*/
 .MyPage {
     padding: 0;
 }
 .navbar {
     padding: 0;
+    background-image: url(topography.png);
 }
 .container {
     margin-left: auto;
@@ -40,7 +46,6 @@
 }
 .pl:active{
     font-weight: bold;
-    color: black;
 }
 .de:hover{
     background-image: linear-gradient(black 0% 33%, red 33% 66%, yellow 66%); 
@@ -48,7 +53,6 @@
 }
 .de:active{
     font-weight: bold;
-    color: black;
 }
 .dropdown-menu {
     left: auto;
@@ -95,23 +99,67 @@ h1 {
     height: 600px;
 }
 /*----------F O O T E R----------*/
+/*----from-left-to-right----*/
+.footer-container {
+    background-image: url(topography.png);
+    padding: 0;
+    margin: 0;
+}
+.contact-art {
+    padding: 1.5% 0 1% 0;
+    margin: 0;
+}
+.cont-ent {
+    margin: 0;
+    padding: 2% 0 2% 0;
+}
+.contactb {
+    padding: 1% 0% 1% 0%;
+}
+.contact-btn {
+    margin: 4.5% 0 3% 0;
+    border-color: black;
+    width: 50%;
+    opacity: 0.7;
+}
+.contact-btn:hover {
+    color: white;
+    background-color: goldenrod;
+    border-color: goldenrod;
+}
+.social {
+    padding: 1% 0 1% 0;
+    margin: 0;
+}
+.social-info {
+    margin: auto;
+    width: 35%;
+    border-bottom: 1px solid black;
+}
 .fa-linkedin {
-    font-size: 25px;
+    padding: 2% 2% 0% 2%;
+    font-size: 30px;
     cursor: pointer;
     color: black;
+    opacity: 0.7;
 }
 .fa-linkedin:hover {
     color:goldenrod;
     text-decoration: none;
 }
 .fa-github-square {
-    font-size: 25px;
+    padding: 2% 2% 0% 2%;
+    font-size: 30px;
     cursor: pointer;
     color: black;
+    opacity: 0.7;
 }
 .fa-github-square:hover {
     color:goldenrod;
     text-decoration: none;
+}
+.footer-copyright {
+    padding: 20px 0px 10px 0px;
 }
 
 
