@@ -18,8 +18,19 @@ class Footer extends React.Component {
                                     <h7 className="modal-title">Send me message</h7>
                                     <button className="close" type="button" data-dismiss="modal">&times;</button>
                                 </div>
-                                <div className="modal-body">
-                                    write here...
+                                <div className="modal-body was-validated" action="/">
+                                    <div class="form-group">
+                                        <label for="uname">E-mail adress:</label>
+                                        <input type="text" class="form-control" placeholder="Enter @ // This option is off already." required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="uname">Topic:</label>
+                                        <input type="text" class="form-control" placeholder="Enter topic // This option is off already." required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="comment">Message content:</label>
+                                        <textarea class="form-control" rows="5" placeholder="Write something...// This option is off already." required></textarea>
+                                    </div> 
                                 </div>
                                 <div className="modal-footer">
                                     <button className="btn btn-success" type="button" data-dismiss="modal">Send</button>

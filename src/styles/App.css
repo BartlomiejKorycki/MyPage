@@ -64,6 +64,7 @@ body {
 a:hover {
     color:goldenrod;
     text-decoration: none;
+    /*border-bottom: 1px solid goldenrod;*/
 }
 .active {
     color: black;
@@ -91,12 +92,16 @@ h1 {
     font-weight: bold;
 }
 /*----------A B O U T M E----------*/
+.am-header {
+    font-size: larger;
+    padding-top: 20px;
+}
 .am-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
 }
@@ -114,6 +119,12 @@ h1 {
     0% {opacity: 0;}
     100% {opacity: 0.9;}
 }
+.am-content {
+    width: 95%;
+    padding: 20px 0px;
+    margin: auto;
+    text-align: justify;
+}
 /*---SKILLBARS---*/
 .row {
     display: flex;
@@ -127,7 +138,7 @@ h1 {
 }
 /*-FRONT-*/
 .frontend {
-    padding: 0;
+    padding: 10px 10px 10px 10px;
 }
 .front {
     padding: 0;
@@ -157,17 +168,9 @@ h1 {
     width: 40%;
     border-radius: 2px;
 }
-.fa-bootstrap {
-    margin: auto;
-    font-size: 40px;
-}
-.fa-react {
-    margin: auto;
-    font-size: 40px;
-}
 /*-BACK-*/
 .backend {
-    padding: 0;
+    padding: 10px 10px 10px 10px;
 }
 .back {
     padding: 0;
@@ -199,10 +202,27 @@ h1 {
 }
 /*----------P O R T F O L I O----------*/
 .pf-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 600px;
+    min-height: 600px;
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
+}
+.portfolio-window {
+    width: 90%;
+    height: 90%;
+    color: black;
+    background-color: white;
+    border-radius: 4px;
+    animation: portfolio-opacity;
+    animation-duration: 2S;
+    animation-fill-mode: forwards;
+}
+@keyframes portfolio-opacity {
+    0% {opacity: 0;}
+    100% {opacity: 0.9;}
 }
 /*----------F O O T E R----------*/
 /*----from-left-to-right----*/
