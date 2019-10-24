@@ -21,8 +21,9 @@ class Navbar extends React.Component {
                                     Language
                                 </a>
                                 <div className="dropdown-menu text-center">
-                                    <a className="dropdown-item pl" href="google.com">Polski</a>
-                                    <a className="dropdown-item de" href="google.com">Deutsch</a>
+                                    <a className="dropdown-item pl" href="/">Polski</a>
+                                    <a className="dropdown-item de" href="/">Deutsch</a>
+                                    <a className="dropdown-item en" href="/">English</a>
                                 </div>
                             </li>
                         </ul>

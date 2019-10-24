@@ -54,6 +54,14 @@ body {
 .de:active{
     font-weight: bold;
 }
+.en:hover{
+    background-image: url(./UKFLAG.jpg);
+    background-size: 100% 100%;
+    font-size: larger;
+}
+.en:active{
+    font-weight: bold;
+}
 .dropdown-menu {
     left: auto;
     border: none;
