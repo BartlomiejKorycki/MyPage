@@ -39,19 +39,19 @@ class Aboutme extends React.Component {
                                 <li className="row">
                                     <i class="fab fa-java"></i>
                                     <div className="progress">
-                                        <div class="java progress-bar progress-bar-striped progress-bar-animated">Junior</div>
+                                        <div class="java progress-bar progress-bar-striped progress-bar-animated">Trainee</div>
                                     </div>
                                 </li>
                                 <li className="row">
                                     <i class="fab fa-python"></i>
                                     <div className="progress">
-                                        <div class="python progress-bar progress-bar-striped progress-bar-animated">Junior</div>
+                                        <div class="python progress-bar progress-bar-striped progress-bar-animated">Trainee</div>
                                     </div>
                                 </li>
                                 <li className="row">
                                     <i class="fas fa-database"></i>
                                     <div className="progress">
-                                        <div class="sql progress-bar progress-bar-striped progress-bar-animated">Junior</div>
+                                        <div class="sql progress-bar progress-bar-striped progress-bar-animated">Trainee</div>
                                     </div>
                                 </li>
                             </ul>

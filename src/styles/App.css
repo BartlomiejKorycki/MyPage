@@ -98,11 +98,24 @@ h1 {
     color: rgb(93, 150, 87);
     font-size: 80px;
     font-weight: bold;
+    opacity: 0;
+    animation-name: Hi;
+    animation-duration: 2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
 }
+@keyframes Hi{
+    0% { opacity: 0;}
+    100% { opacity: 0.9;}
+  }
 /*----------A B O U T M E----------*/
 .am-header {
     font-size: larger;
     padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid goldenrod;
+    width: 35%;
+    margin: auto;
 }
 .am-container {
     display: flex;
@@ -132,6 +145,9 @@ h1 {
     padding: 20px 0px;
     margin: auto;
     text-align: justify;
+}
+.progress-bar {
+    background-color: goldenrod;
 }
 /*---SKILLBARS---*/
 .row {
@@ -189,7 +205,7 @@ h1 {
     font-size: 40px;
 }
 .java {
-    width: 40%;
+    width: 30%;
     border-radius: 2px;
 }
 .fa-python {
@@ -197,7 +213,7 @@ h1 {
     font-size: 40px;
 }
 .python {
-    width: 40%;
+    width: 30%;
     border-radius: 2px;
 }
 .fa-database {
@@ -205,7 +221,7 @@ h1 {
     font-size: 40px;
 }
 .sql {
-    width: 40%;
+    width: 30%;
     border-radius: 2px;
 }
 /*----------P O R T F O L I O----------*/
@@ -277,7 +293,7 @@ h1 {
     padding-top: 2%;
     margin: auto;
     width: 35%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid goldenrod;
 }
 .fa-linkedin {
     padding: 2% 2% 0% 2%;
@@ -289,6 +305,14 @@ h1 {
 .fa-linkedin:hover {
     color:goldenrod;
     text-decoration: none;
+    animation-name: a-linkedin;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes a-linkedin{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.2);}
 }
 .fa-github-square {
     padding: 2% 2% 0% 2%;
@@ -300,6 +324,14 @@ h1 {
 .fa-github-square:hover {
     color:goldenrod;
     text-decoration: none;
+    animation-name: a-github;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes a-github{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.2);}
 }
 .footer-copyright {
     padding: 20px 0px 10px 0px;
