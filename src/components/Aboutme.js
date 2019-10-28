@@ -1,13 +1,15 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
-class Aboutme extends React.Component {
-    render() {
+function Aboutme() {
+    const { t } = useTranslation();
+
         return(
             <div className="am-container">
                 <div className="am-window text-center">
                     <div className="am-info-fluid">
-                        <header className="am-header">About me</header>
-                        <article className="am-content">I was born in 1993. I was interesed by computers for ages, but I never guessed that working with them can be my proffesion. I finished Logistics Management at University of Economics in Poznan in 2018 and started working as Junior Transport Planner in Eurocash. Meanwhile I started studying German language, the basics of Python, SQL and JavaScript. Now I am taking part in CodersCamp and learning basics of Front End. I will see myself as Full Stack Developer in the future. I would like encourage you to follow my website, social media. If you have any questions, don’t hesitate to contact me. </article>
+                        <header className="am-header">{t('Aboutme-title.1')}</header>
+                        <article className="am-content">{t('About-me.1')}</article>
                     </div>
                     <div className="am-skills row">
                         <div className="frontend col-md-6">
@@ -61,5 +63,5 @@ class Aboutme extends React.Component {
             </div>
         );
     }
-}
+
 export default Aboutme;

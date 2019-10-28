@@ -1,6 +1,39 @@
 {
     "About": {
         "1": "O mnie"
+    },
+    "Language": {
+        "1": "Język"
+    },
+    "About-me": {
+        "1": "Urodziłem się w 1993 roku."
+    },
+    "Aboutme-title": {
+        "1": "O mnie"
+    },
+    "Footer-content": {
+        "1": "Jeśli potrzebujesz więcej informacji lub masz jakieś pytania, napisz do mnie."
+    },
+    "Contact": {
+        "1": "Wyślij wiadomość"
+    },
+    "Contact-title": {
+        "1": "Napisz do mnie wiadomość"
+    },
+    "Mail-adress": {
+        "1": "Adres e-mail:"
+    },
+    "Mail-title": {
+        "1": "Tytuł:"
+    },
+    "Mail-content": {
+        "1": "Treść wiadomości:"
+    },
+    "Modal-btn": {
+        "1": "Wyślij"
+    },
+    "Links": {
+        "1": "Linki"
     }
     
 }

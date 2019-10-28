@@ -1,6 +1,38 @@
 {
     "About": {
         "1": "About me"
+    },
+    "Language": {
+        "1": "Language"
+    },
+    "About-me": {
+        "1": "I was born in 1993. I was interesed by computers for ages, but I never guessed that working with them can be my proffesion. I finished Logistics Management at University of Economics in Poznan in 2018 and started working as Junior Transport Planner in Eurocash. Meanwhile I started studying German language, the basics of Python, SQL and JavaScript. Now I am taking part in CodersCamp and learning basics of Front End. I will see myself as Full Stack Developer in the future. I would like encourage you to follow my website, social media. If you have any questions, don’t hesitate to contact me."
+    },
+    "Aboutme-title": {
+        "1": "About me"
+    },
+    "Footer-content": {
+        "1": "If you need more informations or have any questions, contact me please."
+    },
+    "Contact": {
+        "1": "Contact"
+    },
+    "Contact-title": {
+        "1": "Send me message"
+    },
+    "Mail-adress": {
+        "1": "E-mail adress:"
+    },
+    "Mail-title": {
+        "1": "Title:"
+    },
+    "Mail-content": {
+        "1": "Message content:"
+    },
+    "Modal-btn": {
+        "1": "Send"
+    },
+    "Links": {
+        "1": "Links"
     }
-    
 }
