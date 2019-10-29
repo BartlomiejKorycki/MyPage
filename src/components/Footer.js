@@ -43,10 +43,10 @@ function Footer() {
             </div>
             <div className="col-md-4 text-center social">
                 <p className="social-info">{t('Links.1')}</p>
-                <a className="Linkedin" href="https://www.linkedin.com/in/bart%C5%82omiej-korycki-961019121/" target="_blank" rel="noopener noreferrer">
+                <a className="Linkedin" href="https://www.linkedin.com/in/bart%C5%82omiej-korycki-961019121/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Linkedin">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a className="Github" href="https://github.com/BartlomiejKorycki" target="_blank" rel="noopener noreferrer">
+                <a className="Github" href="https://github.com/BartlomiejKorycki" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="GitHub">
                     <i class="fab fa-github-square"></i>
                 </a>
             </div>

@@ -13,7 +13,7 @@ function Navbar() {
     return(
         <nav className="navbar navbar-expand-md">
             <div className="container container-fluid">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" href="/" data-toggle="tooltip" title="Start">
                     <img className="navbar-img" src={bedoka} alt="mylogo" width="100px"></img>
                 </a>
                 <button className="navbar-toggler" data-toggle="collapse" data-target="#my-navbar-button">

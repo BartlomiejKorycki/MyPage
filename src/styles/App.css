@@ -43,6 +43,14 @@ body {
 .pl:hover{
     background-image: linear-gradient(white 50%, red 50%);
     font-size: larger;
+    animation-name: pl-hover;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes pl-hover{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.2);}
 }
 .pl:active{
     font-weight: bold;
@@ -50,6 +58,14 @@ body {
 .de:hover{
     background-image: linear-gradient(black 0% 33%, red 33% 66%, yellow 66%); 
     font-size: larger;
+    animation-name: de-hover;
+    animation-duration: 0.3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes de-hover{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.2);}
 }
 .de:active{
     font-weight: bold;
@@ -58,6 +74,14 @@ body {
     background-image: url(./UKFLAG.jpg);
     background-size: 100% 100%;
     font-size: larger;
+    animation-name: en-hover;
+    animation-duration: 0.3s;
+    animation-delay: 0.0s;
+    animation-fill-mode: forwards;
+}
+@keyframes en-hover{
+    0% { transform: scale(1);}
+    100% { transform: scale(1.2);}
 }
 .en:active{
     font-weight: bold;
@@ -67,6 +91,7 @@ body {
     border: none;
     background-image: url(topography.png);
     opacity: 0.9;
+    overflow: hidden;
 }
 /*------Navi------*/
 a:hover {
@@ -335,6 +360,7 @@ h1 {
 }
 .footer-copyright {
     padding: 20px 0px 10px 0px;
+    color: goldenrod;
 }
 /*----------M-O-D-A-L----------*/
 .modal-content {
