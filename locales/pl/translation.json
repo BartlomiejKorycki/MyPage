@@ -1,0 +1,39 @@
+{
+    "About": {
+        "1": "O mnie"
+    },
+    "Language": {
+        "1": "Język"
+    },
+    "About-me": {
+        "1": "Urodziłem się w 1993 roku. Koputerami interesuję się odkoąd pamiętam, lecz nigdy nie sądziłem, że będę zajmował się nimi zawodowo. Ukończyłem studia na Uniwersytecie Ekonomicznym w Poznaniu na kierunku Logistyka w 2018 roku. Następnie zacząłem pracę jako Młodszy Planista Transportu w firmie Eurocash. W międzyczasie zacząłem naukę języka niemieckiego oraz podstaw programowania (Python, JavaScript, SQL). Ukończyłem kurs tworzenia stron internetowych CodersCamp, który odbywał się we Wrocławiu. Obecnie skupiam się na rozwijaniu Front-endowej wiedzy oraz na języku Java. Jeśli masz chwilę, to zachęcam do odwiedzenia mojego profilu na Linkedin oraz GitHub. W razie jakichkolwiek pytań na dole znajdziesz formularz dzięki któremu możesz wysłać do mnie wiadomość."
+    },
+    "Aboutme-title": {
+        "1": "O mnie"
+    },
+    "Footer-content": {
+        "1": "Jeśli potrzebujesz więcej informacji lub masz jakieś pytania, napisz do mnie."
+    },
+    "Contact": {
+        "1": "Wyślij wiadomość"
+    },
+    "Contact-title": {
+        "1": "Napisz do mnie"
+    },
+    "Mail-adress": {
+        "1": "Adres e-mail:"
+    },
+    "Mail-title": {
+        "1": "Tytuł:"
+    },
+    "Mail-content": {
+        "1": "Treść wiadomości:"
+    },
+    "Modal-btn": {
+        "1": "Wyślij"
+    },
+    "Links": {
+        "1": "Linki"
+    }
+    
+}
