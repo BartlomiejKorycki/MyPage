@@ -273,6 +273,29 @@ h1 {
     0% {opacity: 0;}
     100% {opacity: 0.9;}
 }
+.portfolio-header {
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid goldenrod;
+    width: 35%;
+    margin: auto;
+}
+.portfolio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 600px;
+    background: url(Mountains.jpg) 50% 1%;
+    background-size: cover;
+}
+.portfolio-content {
+    width: 95%;
+    padding: 20px 0px;
+    margin: auto;
+    text-align: justify;
+}
 /*----------F O O T E R----------*/
 /*----from-left-to-right----*/
 .footer-container {

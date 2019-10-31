@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MainTheme from './components/MainTheme';
 import Footer from './components/Footer';
@@ -11,7 +11,7 @@ import Portfolio from './components/Portfolio';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter>
         <div className="MyPage container-fluid">
           <Navbar/>
           <Switch>
@@ -21,7 +21,7 @@ class App extends Component {
           </Switch>
           <Footer/>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
