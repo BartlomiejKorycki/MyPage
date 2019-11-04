@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88d2351423f32f29b9ae9c41250c836a",
+    "revision": "899b12e86c53036121baf065ff94a32b",
     "url": "/MyPage/index.html"
   },
   {
-    "revision": "54ae1479d8701a2e5f7c",
+    "revision": "69058af269353dd10d23",
     "url": "/MyPage/static/css/main.482c6588.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPage/static/js/2.1f03b7d1.chunk.js"
   },
   {
-    "revision": "54ae1479d8701a2e5f7c",
-    "url": "/MyPage/static/js/main.f72a76c7.chunk.js"
+    "revision": "69058af269353dd10d23",
+    "url": "/MyPage/static/js/main.fb7a094d.chunk.js"
   },
   {
     "revision": "dc55f7f4758b28d55ffe",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MyPage/static/media/UKFLAG.be650a65.jpg"
   },
   {
-    "revision": "dcdc4a8129af115f089391049a37bad0",
-    "url": "/MyPage/static/media/bedoka.dcdc4a81.png"
+    "revision": "4e2d81443d7f18d2316a24b71a43b4a2",
+    "url": "/MyPage/static/media/bedoka.4e2d8144.png"
   },
   {
     "revision": "977e3fd0f430205e51e65488c11fdddc",
