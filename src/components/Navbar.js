@@ -21,18 +21,8 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="my-navbar-button">
                     <ul className="nav navbar-nav text-center">
-                        <li><a className="active am" href='#/about'>{t('About.1')}</a></li>
+                        <li><a className="active am" href='#/about'>About me</a></li>
                         <li><a className="active pf" href="#/portfolio">Portfolio</a></li>
-                        <li className="nav-item-dropdown">
-                            <a className="nav-link dropdown-toggle lrg" href="google.com" data-toggle="dropdown">
-                                {t('Language.1')}
-                            </a>
-                            <div className="dropdown-menu text-center">
-                                <a className="dropdown-item pl" href="#/" onClick={()=>handleClick('pl')}>Polski</a>
-                                <a className="dropdown-item de" href="#/" onClick={()=>handleClick('de')}>Deutsch</a>
-                                <a className="dropdown-item en" href="#/" onClick={()=>handleClick('en')}>English</a>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
