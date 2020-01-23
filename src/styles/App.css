@@ -39,6 +39,7 @@ body {
     cursor: pointer;
 }
 /*------Dropdown------*/
+/*-On githubpages, language select not work-*/
 /*------Language------*/
 .pl:hover{
     background-image: linear-gradient(white 50%, red 50%);
@@ -111,27 +112,42 @@ a:hover {
 }
 /*----------M A I N T H E M E----------*/
 .mtns-container {
+    position: relative;
     width: 100%;
     height: 600px;
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
+    overflow: hidden;
 }
-h1 {
-    padding-top: 60px;
-    text-align: center;
-    margin: 0;
-    color: rgb(93, 150, 87);
-    font-size: 80px;
-    font-weight: bold;
+.my-img {
+    width:10;
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
     opacity: 0;
-    animation-name: Hi;
+    animation-name: me;
     animation-duration: 2s;
     animation-delay: 1.2s;
     animation-fill-mode: forwards;
 }
-@keyframes Hi{
+@keyframes me{
     0% { opacity: 0;}
-    100% { opacity: 0.9;}
+    100% { opacity: 0.98;}
+}
+  
+h1 {
+    padding-top: 60px;
+    margin: 0;
+    color: rgb(93, 150, 87);
+    font-size: 80px;
+    font-weight: bold;
+    animation: Hi 4s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes Hi{
+    0% { width: 0ch;}
+    100% { width: 22ch;}
   }
 /*----------A B O U T M E----------*/
 .am-header {
@@ -153,7 +169,7 @@ h1 {
 }
 .am-window {
     width: 90%;
-    height: 90%;
+    height: 100%;
     color: black;
     background-color: white;
     border-radius: 4px;
