@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2950cdf563d0d89396961f8afee7153b",
+    "revision": "40b2908406893478fb0a9c53e9f631f5",
     "url": "/MyPage/index.html"
   },
   {
-    "revision": "7ece46e22f5acb4d3591",
-    "url": "/MyPage/static/css/main.27bec0ee.chunk.css"
+    "revision": "ef3f78ba8c8404db69af",
+    "url": "/MyPage/static/css/main.fdcc19ed.chunk.css"
   },
   {
-    "revision": "641b0abd9b432c8462bc",
-    "url": "/MyPage/static/js/2.7c848e56.chunk.js"
+    "revision": "d90c131627a77b839271",
+    "url": "/MyPage/static/js/2.4a902338.chunk.js"
   },
   {
-    "revision": "7ece46e22f5acb4d3591",
-    "url": "/MyPage/static/js/main.7f27f667.chunk.js"
+    "revision": "ef3f78ba8c8404db69af",
+    "url": "/MyPage/static/js/main.29a6a4ea.chunk.js"
   },
   {
     "revision": "dc55f7f4758b28d55ffe",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e05eacd9d668f448bf29f15998e71e36",
     "url": "/MyPage/static/media/koryspng1.e05eacd9.png"
+  },
+  {
+    "revision": "ee392e8a192023e824400833b2eddfbd",
+    "url": "/MyPage/static/media/timer.ee392e8a.JPG"
   },
   {
     "revision": "977e3fd0f430205e51e65488c11fdddc",
