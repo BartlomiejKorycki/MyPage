@@ -9,7 +9,14 @@ function Aboutme() {
                 <div className="am-window text-center">
                     <div className="am-info-fluid">
                         <header className="am-header">About me</header>
-                        <article className="am-content">I was born in 1993. I was interesed by computers for ages, but I never guessed that working with them can be my proffesion. I finished Logistics Management at University of Economics in Poznan in 2018 and started working as Junior Transport Planner in Eurocash. Meanwhile I started studying German language, the basics of Python, SQL and JavaScript. Now I am finished CodersCamp and learning basics of Front End. I would like encourage you to follow my website, social media. If you have any questions, don’t hesitate to contact me.</article>
+                        <article className="am-content">
+                            <p>I was born in '93 and was <strong>interesed by computers for ages</strong>, but I never guessed that working with them can be my proffesion.</p> 
+                            <p>I finished Logistics Management at University of Economics in Poznan in 2018 and started working as Junior Transport Planner in Eurocash.
+                               Meanwhile I started <strong>studying German language</strong> and the basics of programming.
+                               I am finished <strong>CodersCamp</strong> where i was learned basics of <strong>Front End</strong> (HTML, CSS, JS, Node.js, npm, React).</p> 
+                            <p>Currently i am learning everything what is important to be <strong>Java Programmer</strong> (GIT, JVM, TDD, SQL/NoSQL, JDBC, Hibernate, JSP, Servlet, Spring, Scrum Methodology)</p>
+                            <p>I would like encourage you to follow my website and social media. If you have any questions, don’t hesitate to contact me.</p>
+                        </article>
                     </div>
                     <div className="am-skills row">
                         <div className="frontend col-md-6">
@@ -41,7 +48,7 @@ function Aboutme() {
                                 <li className="row">
                                     <i class="fab fa-java"></i>
                                     <div className="progress">
-                                        <div class="java progress-bar progress-bar-striped progress-bar-animated">Trainee</div>
+                                        <div class="java progress-bar progress-bar-striped progress-bar-animated">Junior</div>
                                     </div>
                                 </li>
                                 <li className="row">

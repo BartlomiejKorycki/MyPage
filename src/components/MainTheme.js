@@ -5,7 +5,8 @@ class MainTheme extends React.Component {
     render() {
         return(
             <div className="mtns-container">
-                <h1 cassName="text-md-center">Welcome on my trail.</h1>
+                <span className="text1">Welcome</span>
+                <span className="text2">on my trail</span>
                 <img className="my-img img-fluid" src={koryspng1} alt="myimage"></img>
             </div>
         );

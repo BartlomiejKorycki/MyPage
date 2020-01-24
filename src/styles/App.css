@@ -1,5 +1,4 @@
 body {
-    /*font-family: 'Fredericka the Great', cursive;*/
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
@@ -118,6 +117,61 @@ a:hover {
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
     overflow: hidden;
+
+    text-align: center;
+}
+.text1 {
+    padding-top: 60px;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    animation: txt1 1s 1;
+}
+@keyframes txt1{
+    0% { 
+        opacity: 0;
+        margin-bottom: -67px;
+    }
+    30% {
+        letter-spacing: 20px;
+        margin-bottom: -47px;
+    }
+    85% {
+        letter-spacing: 6px;
+    }
+    100% { opacity: 1;}
+}
+@media (max-width: 490px) {
+    .text1{
+        padding-top: 85px;
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+}
+@media (max-width: 340px) {
+    .text1{
+        padding-top: 85px;
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 30px;
+    }
+}
+.text2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: green;
+    animation: txt2 3s 1;
+}
+@keyframes txt2{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+.mtns-container span {
+    text-transform: uppercase;
+    display: block;
 }
 .my-img {
     width:10;
@@ -134,24 +188,9 @@ a:hover {
     0% { opacity: 0;}
     100% { opacity: 0.98;}
 }
-  
-h1 {
-    padding-top: 60px;
-    margin: 0;
-    color: rgb(93, 150, 87);
-    font-size: 80px;
-    font-weight: bold;
-    animation: Hi 4s steps(22);
-    overflow: hidden;
-    white-space: nowrap;
-}
-@keyframes Hi{
-    0% { width: 0ch;}
-    100% { width: 22ch;}
-  }
 /*----------A B O U T M E----------*/
 .am-header {
-    font-size: larger;
+    font-size: 35px;
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid goldenrod;
@@ -159,6 +198,7 @@ h1 {
     margin: auto;
 }
 .am-container {
+    padding: 3% 0% 3% 0%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +225,7 @@ h1 {
     width: 95%;
     padding: 20px 0px;
     margin: auto;
-    text-align: justify;
+    text-align: center;
 }
 .progress-bar {
     background-color: goldenrod;
@@ -203,6 +243,8 @@ h1 {
 }
 /*-FRONT-*/
 .frontend {
+    font-size: 18px;
+    font-weight: bold;
     padding: 10px 10px 10px 10px;
 }
 .front {
@@ -214,7 +256,7 @@ h1 {
     font-size: 40px;
 }
 .html {
-    width: 40%;
+    width: 45%;
     border-radius: 2px;
 }
 .fa-css3-alt {
@@ -222,7 +264,7 @@ h1 {
     font-size: 40px;
 }
 .css {
-    width: 40%;
+    width: 45%;
     border-radius: 2px;
 }
 .fa-js-square {
@@ -235,6 +277,8 @@ h1 {
 }
 /*-BACK-*/
 .backend {
+    font-size: 18px;
+    font-weight: bold;
     padding: 10px 10px 10px 10px;
 }
 .back {
@@ -246,7 +290,7 @@ h1 {
     font-size: 40px;
 }
 .java {
-    width: 30%;
+    width: 45%;
     border-radius: 2px;
 }
 .fa-python {
@@ -287,10 +331,10 @@ h1 {
 }
 @keyframes portfolio-opacity {
     0% {opacity: 0;}
-    100% {opacity: 0.9;}
+    100% {opacity: 1;}
 }
 .portfolio-header {
-    font-size: larger;
+    font-size: 35px;
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid goldenrod;
@@ -306,11 +350,49 @@ h1 {
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
 }
+.col-sm{
+    padding-bottom: 20px;
+}
 .portfolio-content {
     width: 95%;
     padding: 20px 0px;
     margin: auto;
     text-align: justify;
+}
+.pf-container a {
+    color: black;
+}
+.overlay{
+    position: relative;
+  }
+.overlay p{
+    line-height: 2;
+    margin: 0;
+    padding: 10% 2%;
+    color: white;
+}
+.overlay a{
+    text-decoration: none;
+}
+.overlay a:link {
+    color: white;
+}
+.overlay a:visited {
+    color: white;
+}
+.overlay .link{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgb(47, 192, 211);
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+}
+.overlay:hover .link{
+    opacity: 0.9;
 }
 /*----------F O O T E R----------*/
 /*----from-left-to-right----*/
