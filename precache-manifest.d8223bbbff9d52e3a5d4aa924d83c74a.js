@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c90a1d33a7197aec0afbaf42ecddb04e",
+    "revision": "8defe6baf781c12ff88716f016d1575b",
     "url": "/MyPage/index.html"
   },
   {
-    "revision": "646ded2eebd79ff15eaa",
-    "url": "/MyPage/static/css/main.d9e6913b.chunk.css"
+    "revision": "d77f3f9dc0063fe814df",
+    "url": "/MyPage/static/css/main.f25d2f90.chunk.css"
   },
   {
-    "revision": "421f31e6292261a30383",
-    "url": "/MyPage/static/js/2.39b237d7.chunk.js"
+    "revision": "ea1d179fcbb1423ef5db",
+    "url": "/MyPage/static/js/2.abfe5afb.chunk.js"
   },
   {
-    "revision": "646ded2eebd79ff15eaa",
-    "url": "/MyPage/static/js/main.c7393d08.chunk.js"
+    "revision": "d77f3f9dc0063fe814df",
+    "url": "/MyPage/static/js/main.be79f8b5.chunk.js"
   },
   {
     "revision": "dc55f7f4758b28d55ffe",
@@ -46,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "977e3fd0f430205e51e65488c11fdddc",
     "url": "/MyPage/static/media/topography.977e3fd0.png"
+  },
+  {
+    "revision": "c74e8a013e8636a39ed145d0e4ba3f69",
+    "url": "/MyPage/static/media/weatherapp.c74e8a01.JPG"
   }
 ]);
