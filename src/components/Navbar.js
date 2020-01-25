@@ -1,14 +1,14 @@
 import React from 'react';
 import bedoka from '../styles/bedoka.png';
-import { useTranslation } from 'react-i18next';
-import i18next from 'i18next';
+//import { useTranslation } from 'react-i18next';
+//import i18next from 'i18next';
 
 function Navbar() {
-    const { t } = useTranslation();
+    //const { t } = useTranslation();
 
-    function handleClick(lang) {
+    /*function handleClick(lang) {
         i18next.changeLanguage(lang)
-    }
+    }*/
 
     return(
         <nav className="navbar navbar-expand-md">

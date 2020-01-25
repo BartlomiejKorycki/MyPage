@@ -1,8 +1,8 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 
 function Footer() {
-    const { t } = useTranslation();
+    //const { t } = useTranslation();
 
     return(
         <div className="footer-container row">
@@ -11,27 +11,27 @@ function Footer() {
             </artcile>
             <div className="col-md-2  text-center contactb">
                 <button className=" btn btn-default contact-btn" data-toggle="modal" data-target="#myModal">
-                    Contact
+                    <strong>Contact</strong>
                 </button>
                 <div className="modal fade" id="myModal">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h7 className="modal-title">Send me message</h7>
+                                <h6 className="modal-title">Send me message</h6>
                                 <button className="close" type="button" data-dismiss="modal">&times;</button>
                             </div>
                             <div className="modal-body was-validated" action="/">
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label for="uname">E-mail adress:</label>
-                                    <input type="text" class="form-control" placeholder="Enter @ // This option is off already." required/>
+                                    <input type="text" className="form-control" placeholder="Enter @ // This option is off already." required/>
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label for="uname">Title:</label>
-                                    <input type="text" class="form-control" placeholder="Enter title // This option is off already." required/>
+                                    <input type="text" className="form-control" placeholder="Enter title // This option is off already." required/>
                                 </div>
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label for="comment">Message content:</label>
-                                    <textarea class="form-control" rows="5" placeholder="Write something...// This option is off already." required></textarea>
+                                    <textarea className="form-control" rows="5" placeholder="Write something...// This option is off already." required></textarea>
                                 </div> 
                             </div>
                             <div className="modal-footer">
@@ -44,10 +44,10 @@ function Footer() {
             <div className="col-md-4 text-center social">
                 <p className="social-info">Links</p>
                 <a className="Linkedin" href="https://www.linkedin.com/in/bart%C5%82omiej-korycki-961019121/" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="Linkedin">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                 </a>
                 <a className="Github" href="https://github.com/BartlomiejKorycki" target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="GitHub">
-                    <i class="fab fa-github-square"></i>
+                    <i className="fab fa-github-square"></i>
                 </a>
             </div>
             <div className="footer-copyright text-center container-fluid">

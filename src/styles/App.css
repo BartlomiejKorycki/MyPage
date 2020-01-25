@@ -311,6 +311,7 @@ a:hover {
 }
 /*----------P O R T F O L I O----------*/
 .pf-container {
+    padding: 3% 0% 3% 0%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -338,7 +339,11 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 5px;
     border-bottom: 1px solid goldenrod;
-    width: 35%;
+    width: 40%;
+    margin: auto;
+}
+.portfolio-info-fluid {
+    padding-top: 3%;
     margin: auto;
 }
 .portfolio-container {
@@ -350,23 +355,39 @@ a:hover {
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
 }
-.col-sm{
+.col-lg{
     padding-bottom: 20px;
 }
 .portfolio-content {
-    width: 95%;
-    padding: 20px 0px;
-    margin: auto;
-    text-align: justify;
+    padding-bottom: 4%;
+}
+.portfolio-content h4:hover {
+    transform: scale(1.1);
+    transition: 0.3s transform linear;
+    text-shadow: -1px 0 goldenrod, 0 1px goldenrod, 1px 0 goldenrod, 0 -1px goldenrod;
 }
 .pf-container a {
     color: black;
 }
+.timer {
+    width: 100%;
+    border-radius: 4px;
+}
+.weatherapp {
+    width: 100%;
+    border-radius: 4px;
+}
+.intro {
+    width: 100%;
+    border-radius: 4px;
+}
 .overlay{
     position: relative;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
   }
 .overlay p{
-    line-height: 2;
+    line-height: 1.7;
     margin: 0;
     padding: 10% 2%;
     color: white;
@@ -387,7 +408,8 @@ a:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgb(47, 192, 211);
+    background-color: rgba(46, 131, 20, 0.897);
+    border-radius: 4px;
     opacity: 0;
     transition: opacity 0.2s ease-in;
 }
