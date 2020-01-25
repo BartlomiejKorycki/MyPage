@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40b2908406893478fb0a9c53e9f631f5",
+    "revision": "c90a1d33a7197aec0afbaf42ecddb04e",
     "url": "/MyPage/index.html"
   },
   {
-    "revision": "ef3f78ba8c8404db69af",
-    "url": "/MyPage/static/css/main.fdcc19ed.chunk.css"
+    "revision": "646ded2eebd79ff15eaa",
+    "url": "/MyPage/static/css/main.d9e6913b.chunk.css"
   },
   {
-    "revision": "d90c131627a77b839271",
-    "url": "/MyPage/static/js/2.4a902338.chunk.js"
+    "revision": "421f31e6292261a30383",
+    "url": "/MyPage/static/js/2.39b237d7.chunk.js"
   },
   {
-    "revision": "ef3f78ba8c8404db69af",
-    "url": "/MyPage/static/js/main.29a6a4ea.chunk.js"
+    "revision": "646ded2eebd79ff15eaa",
+    "url": "/MyPage/static/js/main.c7393d08.chunk.js"
   },
   {
     "revision": "dc55f7f4758b28d55ffe",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e2d81443d7f18d2316a24b71a43b4a2",
     "url": "/MyPage/static/media/bedoka.4e2d8144.png"
+  },
+  {
+    "revision": "093a3df4f1ca9bec61aae93738b3fe49",
+    "url": "/MyPage/static/media/intro.093a3df4.JPG"
   },
   {
     "revision": "e05eacd9d668f448bf29f15998e71e36",
