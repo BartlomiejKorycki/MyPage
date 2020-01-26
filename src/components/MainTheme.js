@@ -6,7 +6,7 @@ class MainTheme extends React.Component {
         return(
             <div className="mtns-container">
                 <span className="text1">Welcome</span>
-                <span className="text2">on my trail</span>
+                <span className="text2">on my route</span>
                 <img className="my-img img-fluid" src={koryspng1} alt="myimage"></img>
             </div>
         );

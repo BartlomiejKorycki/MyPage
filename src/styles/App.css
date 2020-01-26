@@ -123,10 +123,11 @@ a:hover {
 .text1 {
     padding-top: 60px;
     color: whitesmoke;
+    font-family: 'Anton', sans-serif;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 80px;
     font-weight: 700;
-    letter-spacing: 8px;
+    letter-spacing: 15px;
     animation: txt1 1s 1;
 }
 @keyframes txt1{
@@ -143,31 +144,34 @@ a:hover {
     }
     100% { opacity: 1;}
 }
-@media (max-width: 490px) {
-    .text1{
-        padding-top: 85px;
-        font-size: 60px;
-        letter-spacing: 2px;
-    }
-}
-@media (max-width: 340px) {
-    .text1{
-        padding-top: 85px;
-        font-size: 50px;
-    }
-    .text2{
-        font-size: 30px;
-    }
-}
 .text2 {
+    font-family: 'Anton', sans-serif;
     font-size: 40px;
     font-weight: 700;
+    letter-spacing: 5px;
     color: green;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
     animation: txt2 3s 1;
 }
 @keyframes txt2{
     0% { opacity: 0;}
     100% { opacity: 1;}
+}
+@media (max-width: 490px) {
+    .text1{
+        padding-top: 85px;
+        font-size: 60px;
+        letter-spacing: 7px;
+    }
+}
+@media (max-width: 340px) {
+    .text1{
+        padding-top: 180px;
+        font-size: 50px;
+    }
+    .text2{
+        font-size: 30px;
+    }
 }
 .mtns-container span {
     text-transform: uppercase;
@@ -389,8 +393,99 @@ a:hover {
 .overlay p{
     line-height: 1.7;
     margin: 0;
-    padding: 10% 2%;
+    padding: 6% 2% 0% 2%;
     color: white;
+}
+#p1 {
+    padding: 0% 2%;
+}
+.fa-github {
+    padding: 2% 2% 0% 2%;
+    font-size: 40px;
+    cursor: pointer;
+    color: black;
+    opacity: 0.9;
+}
+.fa-globe-europe {
+    opacity: 0;
+}
+@media (max-width: 1200px) {
+    .fa-github {
+        font-size: 30px;
+    }
+    .overlay p{
+        padding: 2% 2% 0% 2%;
+        font-size: 14.5px;
+    }
+}
+@media (max-width: 990px) {
+    .fa-globe-europe {
+        padding: 2% 7% 0% 2%;
+        font-size: 40px;
+        cursor: pointer;
+        color: black;
+        opacity: 0.9;
+    }
+    .fa-github {
+        padding: 2% 2% 0% 7%;
+        font-size: 40px;
+    }
+    .overlay p{
+        padding: 15% 2% 0% 2%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 490px) {
+    .fa-globe-europe {
+        padding: 2% 7% 0% 2%;
+        font-size: 40px;
+        cursor: pointer;
+        color: black;
+        opacity: 0.9;
+    }
+    .fa-github {
+        padding: 2% 2% 0% 7%;
+        font-size: 40px;
+    }
+    .overlay p{
+        padding: 2% 2% 0% 2%;
+        font-size: 20px;
+    }
+}
+@media (max-width: 540px) {
+    .fa-globe-europe {
+        font-size: 30px;
+    }
+    .fa-github {
+        font-size: 30px;
+    }
+    .overlay p{
+        padding: 2% 2% 0% 2%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 360px) {
+    .overlay p{
+        line-height: 1.7;
+        margin: 0;
+        padding: 5% 2% 0% 2%;
+        font-size: 15px;
+    }
+    .portfolio-header {
+        width: 70%;
+    }
+}
+@media (max-width: 330px) {
+    .overlay p{
+        padding: 2% 2% 0% 2%;
+        font-size: 12px;
+    }
+    .fa-globe-europe {
+        font-size: 25px;
+    }
+    .fa-github {
+        font-size: 25px;
+    }
 }
 .overlay a{
     text-decoration: none;
@@ -414,7 +509,7 @@ a:hover {
     transition: opacity 0.2s ease-in;
 }
 .overlay:hover .link{
-    opacity: 0.9;
+    opacity: 1;
 }
 /*----------F O O T E R----------*/
 /*----from-left-to-right----*/
