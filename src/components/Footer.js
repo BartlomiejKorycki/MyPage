@@ -17,25 +17,8 @@ function Footer() {
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header">
-                                <h6 className="modal-title">Send me message</h6>
+                                <h6 className="modal-title">bedoka27@gmail.com</h6>
                                 <button className="close" type="button" data-dismiss="modal">&times;</button>
-                            </div>
-                            <div className="modal-body was-validated" action="/">
-                                <div className="form-group">
-                                    <label for="uname">E-mail adress:</label>
-                                    <input type="text" className="form-control" placeholder="Enter @ // This option is off already." required/>
-                                </div>
-                                <div className="form-group">
-                                    <label for="uname">Title:</label>
-                                    <input type="text" className="form-control" placeholder="Enter title // This option is off already." required/>
-                                </div>
-                                <div className="form-group">
-                                    <label for="comment">Message content:</label>
-                                    <textarea className="form-control" rows="5" placeholder="Write something...// This option is off already." required></textarea>
-                                </div> 
-                            </div>
-                            <div className="modal-footer">
-                                <button className="btn btn-success" type="button" data-dismiss="modal">Send</button>
                             </div>
                         </div>
                     </div>
