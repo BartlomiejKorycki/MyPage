@@ -117,14 +117,14 @@ a:hover {
     background: url(Mountains.jpg) 50% 1%;
     background-size: cover;
     overflow: hidden;
-
     text-align: center;
 }
 .text1 {
     padding-top: 60px;
-    color: whitesmoke;
-    font-family: 'Anton', sans-serif;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(16, 83, 16);
+    opacity: 1;
+    font-family: 'Ultra', serif;
+    /*text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;*/
     font-size: 80px;
     font-weight: 700;
     letter-spacing: 15px;
@@ -145,32 +145,56 @@ a:hover {
     100% { opacity: 1;}
 }
 .text2 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Ultra', serif;
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 5px;
-    color: green;
-    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    color: whitesmoke;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     animation: txt2 3s 1;
 }
 @keyframes txt2{
     0% { opacity: 0;}
     100% { opacity: 1;}
 }
-@media (max-width: 490px) {
+@media (max-width: 590px) {
     .text1{
-        padding-top: 85px;
+        padding-top: 0px;
         font-size: 60px;
         letter-spacing: 7px;
     }
+    .text2{
+        padding-top: 0px;
+        font-size: 25px;
+    }
 }
-@media (max-width: 340px) {
+@media (max-width: 460px) {
     .text1{
-        padding-top: 180px;
+        padding-top: 100px;
+        font-size: 60px;
+        letter-spacing: 7px;
+    }
+    .text2{
+        padding-top: 0px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .text1{
+        padding-top: 140px;
         font-size: 50px;
     }
     .text2{
         font-size: 30px;
+    }
+}
+@media (max-width: 360px) {
+    .text1{
+        padding-top: 100px;
+        font-size: 40px;
+    }
+    .text2{
+        font-size: 15px;
     }
 }
 .mtns-container span {
@@ -327,6 +351,7 @@ a:hover {
 .portfolio-window {
     width: 90%;
     height: 90%;
+    margin: auto;
     color: black;
     background-color: white;
     border-radius: 4px;
@@ -393,17 +418,27 @@ a:hover {
 .overlay p{
     line-height: 1.7;
     margin: 0;
-    padding: 6% 2% 0% 2%;
-    color: white;
-}
-#p1 {
     padding: 0% 2%;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 .fa-github {
-    padding: 2% 2% 0% 2%;
-    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    top: 87%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0% 2%;
+    font-size: 30px;
     cursor: pointer;
-    color: black;
+    color: whitesmoke;
     opacity: 0.9;
 }
 .fa-globe-europe {
@@ -414,41 +449,40 @@ a:hover {
         font-size: 30px;
     }
     .overlay p{
-        padding: 2% 2% 0% 2%;
         font-size: 14.5px;
     }
 }
 @media (max-width: 990px) {
     .fa-globe-europe {
-        padding: 2% 7% 0% 2%;
+        padding: 0% 2%;
         font-size: 40px;
         cursor: pointer;
-        color: black;
+        color: whitesmoke;
         opacity: 0.9;
+        position: absolute;
+        text-align: center;
+        top: 83%;
+        left: 80%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
     .fa-github {
-        padding: 2% 2% 0% 7%;
         font-size: 40px;
+        top: 83%;
+        left: 20%;
     }
     .overlay p{
-        padding: 15% 2% 0% 2%;
         font-size: 20px;
     }
 }
 @media (max-width: 490px) {
     .fa-globe-europe {
-        padding: 2% 7% 0% 2%;
         font-size: 40px;
-        cursor: pointer;
-        color: black;
-        opacity: 0.9;
     }
     .fa-github {
-        padding: 2% 2% 0% 7%;
         font-size: 40px;
     }
     .overlay p{
-        padding: 2% 2% 0% 2%;
         font-size: 20px;
     }
 }
@@ -460,7 +494,6 @@ a:hover {
         font-size: 30px;
     }
     .overlay p{
-        padding: 2% 2% 0% 2%;
         font-size: 15px;
     }
 }
@@ -468,7 +501,6 @@ a:hover {
     .overlay p{
         line-height: 1.7;
         margin: 0;
-        padding: 5% 2% 0% 2%;
         font-size: 15px;
     }
     .portfolio-header {
@@ -477,7 +509,6 @@ a:hover {
 }
 @media (max-width: 330px) {
     .overlay p{
-        padding: 2% 2% 0% 2%;
         font-size: 12px;
     }
     .fa-globe-europe {
@@ -503,7 +534,7 @@ a:hover {
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(46, 131, 20, 0.897);
+    background-color: rgba(46, 131, 20);
     border-radius: 4px;
     opacity: 0;
     transition: opacity 0.2s ease-in;

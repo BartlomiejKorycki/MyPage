@@ -50,8 +50,8 @@ class Portfolio extends React.Component {
                             <div className="overlay">
                                 <img className="intro" src={intro} alt="IntroWebside"></img>
                                 <a className="link">
-                                    <p>I created this site for learning and fun.</p> 
-                                    <p id="p1">I used <a href="https://cdnjs.com/libraries/ScrollMagic" target="_blank" rel="noopener noreferrer" title="ScrollMagic on cdnjs.com"><i> ScrollMagic</i></a> to rewind the video.
+                                    <p>I created this site for learning and fun.
+                                    I used <a href="https://cdnjs.com/libraries/ScrollMagic" target="_blank" rel="noopener noreferrer" title="ScrollMagic on cdnjs.com"><i> ScrollMagic</i></a> to rewind the video.
                                     </p>
                                     <a className="Link" href="https://bartlomiejkorycki.github.io/Intro/" data-toggle="tooltip" title="Intro">
                                         <i className="fas fa-globe-europe"></i>
