@@ -124,10 +124,9 @@ a:hover {
     color: whitesmoke;
     opacity: 1;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px rgb(35, 68, 24);
     font-size: 80px;
     animation: txt1 1s 1;
-        /*color: rgb(16, 83, 16);*/
 }
 @keyframes txt1{
     0% { 
@@ -144,11 +143,12 @@ a:hover {
     100% { opacity: 1;}
 }
 .text2 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
     font-size: 40px;
     font-weight: 400;
-    color: rgba(46, 131, 20);
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.795);
+    color: rgba(46, 131, 20, 0.856);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.795);
     /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
     animation: txt2 3s 1;
 }
