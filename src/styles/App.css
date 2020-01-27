@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
 /*----------N A V B A R----------*/
@@ -121,14 +121,13 @@ a:hover {
 }
 .text1 {
     padding-top: 60px;
-    color: rgb(16, 83, 16);
+    color: whitesmoke;
     opacity: 1;
-    font-family: 'Ultra', serif;
-    /*text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;*/
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 3px black;
     font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 15px;
     animation: txt1 1s 1;
+        /*color: rgb(16, 83, 16);*/
 }
 @keyframes txt1{
     0% { 
@@ -145,12 +144,12 @@ a:hover {
     100% { opacity: 1;}
 }
 .text2 {
-    font-family: 'Ultra', serif;
+    font-family: 'Rock Salt', cursive;
     font-size: 40px;
-    font-weight: 700;
-    letter-spacing: 5px;
-    color: whitesmoke;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: 400;
+    color: rgba(46, 131, 20);
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.795);
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
     animation: txt2 3s 1;
 }
 @keyframes txt2{
@@ -159,42 +158,39 @@ a:hover {
 }
 @media (max-width: 590px) {
     .text1{
-        padding-top: 0px;
-        font-size: 60px;
-        letter-spacing: 7px;
+        padding-top: 30px;
+        font-size: 80px;
     }
     .text2{
-        padding-top: 0px;
-        font-size: 25px;
+        font-size: 45px;
     }
 }
 @media (max-width: 460px) {
     .text1{
-        padding-top: 100px;
-        font-size: 60px;
-        letter-spacing: 7px;
+        padding-top: 90px;
+        font-size: 75px;
     }
     .text2{
-        padding-top: 0px;
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 @media (max-width: 425px) {
     .text1{
-        padding-top: 140px;
-        font-size: 50px;
+        padding-top: 100px;
+        font-size: 65px;
     }
     .text2{
-        font-size: 30px;
+        font-size: 35px;
     }
 }
 @media (max-width: 360px) {
     .text1{
-        padding-top: 100px;
-        font-size: 40px;
+        padding-top: 120px;
+        font-size: 55px;
     }
     .text2{
-        font-size: 15px;
+        font-size: 25px;
+        font-weight: 700;
     }
 }
 .mtns-container span {
@@ -393,7 +389,7 @@ a:hover {
 .portfolio-content h4:hover {
     transform: scale(1.1);
     transition: 0.3s transform linear;
-    text-shadow: -1px 0 goldenrod, 0 1px goldenrod, 1px 0 goldenrod, 0 -1px goldenrod;
+    text-shadow: 1px 1px 2px goldenrod;
 }
 .pf-container a {
     color: black;

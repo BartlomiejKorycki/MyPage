@@ -6,22 +6,21 @@ Technology:
 
 - HTML 
 - CSS
-- JavaScript
+- JSX
 - React
 - Bootstrap
 
 ## Description
 
-
-On the webside you will find following sections (with informations):
+On the website you will find following sections (with informations):
 * About me
 * Skills
 * Portfolio
 * Contact
 
-## Webside prewiev
+
+## Website prewiev
 
 [Click here :)](https://bartlomiejkorycki.github.io/MyPage/#/)
-
 
 Enjoy!
