@@ -1,6 +1,6 @@
 # Project No.2
 
-"My webside"
+"My website"
 
 Technology: 
 
