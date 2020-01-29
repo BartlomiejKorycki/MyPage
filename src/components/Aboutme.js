@@ -25,13 +25,13 @@ function Aboutme() {
                                 <li className="row">
                                     <i className="fab fa-html5"></i>
                                     <div className="progress">
-                                        <div className="html progress-bar progress-bar-striped progress-bar-animated">Junior</div>
+                                        <div className="html progress-bar progress-bar-striped progress-bar-animated">Middle</div>
                                     </div>
                                 </li>
                                 <li className="row">
                                     <i class="fab fa-css3-alt"></i>
                                     <div className="progress">
-                                        <div className="css progress-bar progress-bar-striped progress-bar-animated">Junior</div>
+                                        <div className="css progress-bar progress-bar-striped progress-bar-animated">Middle</div>
                                     </div>
                                 </li>
                                 <li className="row">
