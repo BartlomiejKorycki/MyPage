@@ -1,6 +1,6 @@
 # Project No.2
 
-"My website"  In this project, I want to show the skills I acquired at the Webdeveveloper course by CodersCamp in summer '19.
+"My website"<br/>In this project, I want to show the skills I acquired at the Webdeveveloper course by CodersCamp in summer '19.
 
 Technology: 
 
