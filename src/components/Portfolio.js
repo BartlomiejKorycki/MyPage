@@ -32,7 +32,7 @@ class Portfolio extends React.Component {
                             <div className="overlay">
                                 <img className="weatherapp" src={weatherapp} alt="WeatherApp"></img>
                                 <a className="link">
-                                    <p>The result of my learning to connect to api on the example of the weather application.
+                                    <p>Visual side in progress! The result of my learning to connect to api on the example of the weather application.
                                         I used the <a href="https://openweathermap.org/api" target="_blank" rel="noopener noreferrer" title="OpenWeather"><i> OpenWeather API</i></a> with React.
                                     </p>
                                     <a className="Link" href="https://bartlomiejkorycki.github.io/WeatherApp/" data-toggle="tooltip" title="WeatherApp">
