@@ -10,12 +10,12 @@ function Aboutme() {
                     <div className="am-info-fluid">
                         <header className="am-header">About me</header>
                         <article className="am-content">
-                            <p>I was born in '93. I am <strong>interested in computers for ages</strong>, but I would never thought that working with them can be my proffesion.</p> 
+                            <p>I was born in '93. I have been <strong>interested in computers for ages</strong>, but I would never thought that working with them can be my profession.</p> 
                             <p>I finished Logistics Management at University of Economics in Poznan in 2018 and started working as Junior Transport Planner in Eurocash.
-                               Meanwhile I started <strong>studying German language</strong> and the basics of programming.
+                               Meanwhile I have started <strong>studying German language</strong> and the basics of programming.
                                I also finished <strong>CodersCamp</strong> where I learned basics of <strong>Front End</strong> (HTML, CSS, JS, Node.js, npm, React).</p> 
                             <p>Currently I am learning everything what is important to be <strong>Java Programmer</strong> (GIT, JVM, TDD, SQL/NoSQL, JDBC, Hibernate, JSP, Servlet, Spring, Scrum Methodology)</p>
-                            <p>I would like encourage you to follow my website and social media. If you have any questions, do not hesitate to contact me.</p>
+                            <p>I would like you invite you to follow my website and social media. If you have any questions, do not hesitate to contact me.</p>
                         </article>
                     </div>
                     <div className="am-skills row">
