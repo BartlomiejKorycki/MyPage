@@ -7,7 +7,7 @@ function Footer() {
     return(
         <div className="footer-container row">
             <artcile className="col-md-6 text-center contact-art"> 
-                <p className="cont-ent">If you need more informations or have any question, contact me please.</p>
+                <p className="cont-ent">If you need more information or have any question pease contact me.</p>
             </artcile>
             <div className="col-md-2  text-center contactb">
                 <button className=" btn btn-default contact-btn" data-toggle="modal" data-target="#myModal">
